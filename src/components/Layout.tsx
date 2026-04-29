@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, Outlet, useLocation } from 'react-router-dom';
 import { ShoppingBag, User, Send, Menu, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
 import { ROUTES } from '../types';
 import TermsDialog from './TermsDialog';
 
@@ -128,17 +127,7 @@ export default function Layout() {
       )}
 
       <main className="flex-grow">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={location.pathname}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-          >
-            <Outlet />
-          </motion.div>
-        </AnimatePresence>
+        <Outlet />
       </main>
 
       <footer className="bg-stone-100 border-t border-text-charcoal mt-12 py-12">
