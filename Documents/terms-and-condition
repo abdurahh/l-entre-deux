@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions | The Daily Sartorial</title>
+    <style>
+        /* Vintage Newspaper Aesthetic */
+        body {
+            background-color: #f4f1ea; /* Aged paper color */
+            color: #1a1a1a;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #333;
+            padding: 40px;
+            background-color: #fdfbf7;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px double #333;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-variant: small-caps;
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .edition-info {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        h2 {
+            border-bottom: 1px solid #333;
+            font-style: italic;
+            margin-top: 30px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            column-count: 1; /* Keeping it readable for mobile, can be 2 for wide screens */
+        }
+
+        p, li {
+            font-size: 0.95rem;
+            text-align: justify;
+        }
+
+        .footer-note {
+            margin-top: 40px;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            font-size: 0.8rem;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>The Daily Sartorial</h1>
+            <div class="edition-info">Legal Notices Edition • 20th Century Style • For the Modern Academic</div>
+        </header>
+
+        <h2>1. Acceptance of Terms</h2>
+        <section>
+            <p>By accessing the digital presence of <strong>The Daily Sartorial</strong>, you are entering into a formal agreement to abide by the following rules of conduct and trade. These terms are designed to protect the integrity of our 20th-century European aesthetic and our mission to provide beginner-friendly professional attire to the university community.</p>
+        </section>
+
+        <h2>2. Purpose of Service</h2>
+        <section>
+            <p>Our platform provides both a commercial storefront and an educational "Inspiration" resource. While we strive to help students "mix and match" and navigate the complexities of formal wear, the final sartorial choice remains the responsibility of the customer. We provide the structure; you provide the flow.</p>
+        </section>
+
+        <h2>3. Intellectual Property</h2>
+        <section>
+            <p>All content included on this site—including our "Old Newspaper" templates, moving hero-section videos, garment designs (specifically our high-waisted silhouettes), and the "Modern Academic" series descriptions—is the exclusive property of The Daily Sartorial. Reproduction of our "Inspiration" pages for commercial use is strictly prohibited.</p>
+        </section>
+
+        <h2>4. Product Representation & Variations</h2>
+        <section>
+            <p>Because our brand utilizes textures like charcoal wool, herringbone, and silk-crepe, please note that digital displays may vary slightly from the physical garment. We aim for 20th-century authenticity; minor variations in weave and fabric weight are hallmarks of the "modern touch" and structured flow we promise.</p>
+        </section>
+
+        <h2>5. Returns & Exchange Policy</h2>
+        <section>
+            <p>We understand that finding the right professional fit is a journey. Returns are accepted within 30 days, provided the items remain in "as-new" condition. High-waisted trousers must not show signs of wear or altered hemlines to be eligible for a refund.</p>
+        </section>
+
+        <h2>6. Limitation of Liability</h2>
+        <section>
+            <p>The Daily Sartorial shall not be held liable for any missed internship opportunities, failed presentations, or social faux pas. Our clothing is a tool for professional identity, but as noted in the works of Pierre Bourdieu, the <em>habitus</em> is cultivated by the wearer, not just the wool.</p>
+        </section>
+
+        <div class="footer-note">
+            Published in Hong Kong. All rights reserved. <br>
+            "Dressing the leaders of tomorrow in the elegance of yesterday."
+        </div>
+    </div>
+
+</body>
+</html>

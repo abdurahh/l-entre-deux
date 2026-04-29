@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+
+  --color-background-paper: #FBF8F1;
+  --color-surface-sepia: #EBE3D5;
+  --color-text-charcoal: #2B2B2B;
+  --color-accent-teal: #1A5F7A;
+  --color-accent-gold: #C89F53;
+
+  --spacing-margin-page: 40px;
+  --spacing-gutter: 24px;
+  --spacing-container-max: 1280px;
+}
+
+@keyframes hero-media-colorize {
+  0% {
+    filter: grayscale(1) contrast(1.05) brightness(0.95);
+  }
+  55% {
+    filter: grayscale(0.45) contrast(1.02) brightness(1);
+  }
+  100% {
+    filter: grayscale(0) contrast(1) brightness(1);
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background-paper text-text-charcoal font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .border-newspaper {
+    @apply border-text-charcoal border;
+  }
+
+  .img-consistent {
+    @apply w-full h-full object-cover grayscale transition-all duration-700;
+    object-position: center 20%;
+  }
+
+  .btn-primary {
+    @apply rounded-none bg-text-charcoal text-background-paper px-6 py-3 uppercase tracking-widest text-xs font-semibold hover:bg-accent-teal hover:-translate-y-0.5 transition-all duration-300;
+  }
+
+  .hero-media-colorize {
+    animation: hero-media-colorize 12s ease-in-out forwards;
+  }
+}
